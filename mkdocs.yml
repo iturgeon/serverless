@@ -1,0 +1,27 @@
+site_name: Serverless documentation
+theme: readthedocs
+repo_url: https://github.com/serverless/serverless
+pages:
+- Home: README.md
+- Concepts:
+  - services: concepts/services.md
+  - serverless.yaml: concepts/serverless-yaml.md
+  - serverless.env.yaml: concetps/serverless-env-yaml.md
+  - event sources: concepts/event-sources.md
+  - plugins: concepts/plugins.md
+- Tutorials:
+  - Your first service: tutorials/your-first-service.md
+  - Event sources: tutorials/event-sources.md
+- Plugins:
+  - Core plugins:
+    - create: plugins/core/create.md
+    - deploy: plugins/core/deploy.md
+    - invoke: plugins/core/invoke.md
+    - remove: plugins/core/remove.md
+  - AWS plugins:
+    - awsCompileFunctions: plugins/aws/awsCompileFunctions.md
+    - awsCompileS3Events: plugins/aws/awsCompileS3Events.md
+    - awsCompileScheduledEvents: plugins/aws/awsCompileScheduledEvents.md
+    - awsDeploy: plugins/aws/awsDeploy.md
+    - awsInvoke: plugins/aws/awsInvoke.md
+    - awsRemove: plugins/aws/awsRemove.md
